@@ -133,7 +133,18 @@ let nombreNumerico = Number(nombre);
     let numberOcho = 8;
     const numberNueve = 9;
     var numberDiez = 10;
-    
+
+    console.log("NumberUno: " + numberUno);
+    console.log("NumberDos: " + numberDos);
+    console.log("NumberTres: " + numberTres);
+    console.log("NumberCuatro: " + numberCuatro);
+    console.log("NumberCinco: " + numberCinco);
+    console.log("NumberSeis: " + numberSeis);
+    console.log("NumberSiete: " + numberSiete);
+    console.log("NumberOcho: " + numberOcho);
+    console.log("NumberNueve: " + numberNueve);
+    console.log("NumberDiez: " + numberDiez);
+
 // *String:
  
    var numberText1 = "Uno";
@@ -147,18 +158,39 @@ let nombreNumerico = Number(nombre);
    const numberText9 = "Nueve";
    var numberText10 = "Diez";
 
+   console.log("NumberText1: " + numberText1);
+   console.log("NumberText2: " + numberText2);
+   console.log("NumberText3: " + numberText3);
+   console.log("NumberText4: " + numberText4);
+   console.log("NumberText5: " + numberText5);
+   console.log("NumberText6: " + numberText6);
+   console.log("NumberText7: " + numberText7);
+   console.log("NumberText8: " + numberText8);
+   console.log("NumberText9: " + numberText9);
+   console.log("NumberText10: " + numberText10);
+
 // *Booleanos:   
 
    var numberB1Uno = true;
+   console.log("NumberB1Uno: " + numberB1Uno);
    let numberB2Dos = false;
+   console.log("NumberB2Dos: " + numberB2Dos);
    const numberB3Tres = true;
+   console.log("NumberB3Tres " + numberB3Tres);
    var numberB4Cuatro = false;
+   console.log("NumberB4Cuatro: " + numberB4Cuatro);
    let numberB5Cinco = true;
+   console.log("NumberB5Cinco: " + numberB5Cinco);
    const numberB6Seis = false;
+   console.log("NumberB6Seis: " + numberB6Seis);
    var numberB7Siete = true;
+   console.log("NumberB7Siete: " + numberB7Siete);
    let numberB8Ocho = false;
+   console.log("NumberB8Ocho: " + numberB8Ocho);
    const numberB9Nueve = true;
+   console.log("NumberB9Nueve: " + numberB9Nueve);
    var numberB10Diez = false;
+   console.log("NumberB10Diez: " + numberB10Diez);
 
     
 /** Declarar variables numericas y realizar las operaciones aritmeticas basicas (+suma, -resta, *multiplicacion,
@@ -213,35 +245,35 @@ let nombreNumerico = Number(nombre);
 
     // *Multiplicacion 1, 2, 3, 4
         let multiplicacion = numberX * numberY;
-        console.log("El resultado es: " * multiplicacion);
+        console.log("El resultado es: " + multiplicacion);
         
         let multiplicacion1 = numberX1 * numberY1;
-        console.log("El resultado es: " * multiplicacion1);   
+        console.log("El resultado es: " + multiplicacion1);   
 
         let multiplicacion2 = numberX2 * numberY2;
-        console.log("El resultado es: " * multiplicacion2);   
+        console.log("El resultado es: " + multiplicacion2);   
 
         let multiplicacion3 = numberX3 * numberY3;
-        console.log("El resultado es: " * multiplicacion3);   
+        console.log("El resultado es: " + multiplicacion3);   
 
         let multiplicacion4 = numberX4 * numberY4;
-        console.log("El resultado es: " * multiplicacion4);   
+        console.log("El resultado es: " + multiplicacion4);   
 
     // *Division 1, 2, 3, 4
         let division = numberX % numberY;
-        console.log("El resultado es: " % division);
+        console.log("El resultado es: " + division);
 
         let division1 = numberX1 % numberY1;
-        console.log("El resultado es: " % division1);
+        console.log("El resultado es: " + division1);
 
         let division2 = numberX2 % numberY2;
-        console.log("El resultado es: " % division2);
+        console.log("El resultado es: " + division2);
 
         let division3 = numberX3 % numberY3;
-        console.log("El resultado es: " % division3);
+        console.log("El resultado es: " + division3);
 
         let division4 = numberX4 % numberY4;
-        console.log("El resultado es: " % division4);
+        console.log("El resultado es: " + division4);
 
         
 /** -Declarar variables que concatenen cadenas de texto-5 mensajes diferentes en pantalla, sin limite de palabras. */
