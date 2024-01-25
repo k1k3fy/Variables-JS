@@ -121,7 +121,7 @@ let nombreNumerico = Number(nombre);
        -boolean
 */
 
-// *numeros:                           
+// *numeros:                          
     
     var numberUno = 1;
     let numberDos = 2;
@@ -305,7 +305,7 @@ let nombreNumerico = Number(nombre);
 
 
  /**  Declarar 5 variables y convertirlas a otro tipo de dato */   
-     
+    
     var nombre = "Elena";
     var edad = 25;
     var alive = true;
@@ -369,6 +369,7 @@ let nombreNumerico = Number(nombre);
     console.log("Alive4: " + alive4);
     console.log("Apellido4: " + apellido4);
     console.log("Estatura4: " + estatura4);
+
 
 
 
